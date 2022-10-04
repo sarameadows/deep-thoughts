@@ -60,7 +60,7 @@ export const QUERY_USER = gql`
 export const QUERY_ME = gql`
     {
         me {
-            id
+            _id
             username
             email
             friendCount
@@ -87,7 +87,7 @@ export const QUERY_ME = gql`
 export const QUERY_ME_BASIC = gql`
     {
         me {
-            id
+            _id
             username
             email
             friendCount
